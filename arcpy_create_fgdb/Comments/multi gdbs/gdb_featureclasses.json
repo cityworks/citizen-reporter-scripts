@@ -1,0 +1,13 @@
+{
+    "FeatureClasses": {
+        "AirportProblemTypes": "AirportProblems",
+        "ElectricUtilityProblemTypes": "ElectricUtilityProblems",
+        "EMSProblemType": "EMSProblems",
+        "FacilitiesProblemTypes": "FacilitiesProblems",
+        "ForesterProblemType": "ForesterProblems",
+        "NatGasUtilityProblemType": "NatGasUtilityProblems",
+        "StreetProblemType": "StreetProblems",
+        "TelComUtilityProblemType": "TelComUtilityProblems",
+        "WaterProblemTypes": "WaterProblems"
+    }
+}

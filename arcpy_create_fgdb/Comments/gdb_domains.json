@@ -1,0 +1,182 @@
+{
+    "Domains": [
+        {
+            "Name": "AirportProblemTypes",
+            "Description": "Airport Management Request Types",
+            "Coded Values": {
+                "TEMP ISSUE": "Temperature Issues",
+                "HVAC NOISE": "HVAC Units making a lot of noise",
+                "HAZMAT": "Hazmat Spill",
+                "WLSTRIKE": "Wildlife Strike",
+                "AIRFIELD LIGHT OUT": "Airfield Light has gone out",
+                "RUNWAY GRAVEL": "Loose gravel / rocks on runway",
+                "HANGAR DOOR": "Hangar door not opening",
+                "CLEAN BATHROOM": "Bathroom needs cleaning",
+                "OVERFLOW TRASH CAN": "Overflowing trash can"
+            },
+            "Field Type": "TEXT",
+            "Domain Type": "CODED"
+        },
+        {
+            "Name": "ElectricUtilityProblemTypes",
+            "Description": "Electric Utility Request Types",
+            "Coded Values": {
+                "ELECPROBLEM": "Electric Power Problem",
+                "LIGHTNING": "Investigate Lightning Strike",
+                "LOCATES": "Locates",
+                "NEWELEC": "New Electric Service",
+                "POWEROUT": "Power Out",
+                "UPGRADE": "Request for Upgrade",
+                "STREETLIGHTOUT": "Streetlight Out",
+                "TREES": "Trees In Lines",
+                "TRIMTREES": "Trim or Cut Trees",
+                "SECLIGHT": "Turn Off Security Light",
+                "WIRESDOWN": "Wires Down"
+            },
+            "Field Type": "TEXT",
+            "Domain Type": "CODED"
+        },
+        {
+            "Name": "EMSProblemType",
+            "Description": "Emergency Management Request Types",
+            "Coded Values": {
+                "APPLIANCES": "Appliances (White Goods)",
+                "ELECTRONIC": "Electronic",
+                "HAZWASTE": "Hazardous Waste",
+                "MIXED": "Mixed",
+                "OTHER": "Other",
+                "PERPROP": "Personal Property",
+                "SEDIMENT": "Sediment (Soil, Mud, Sand)",
+                "VEGETATION": "Vegetation",
+                "VEHICLES": "Vehicles",
+                "VESSELS": "Vessels",
+                "CD": "Construction & Demolition"
+            },
+            "Field Type": "TEXT",
+            "Domain Type": "CODED"
+        },
+        {
+            "Name": "FacilitiesProblemTypes",
+            "Description": "Facilities Management Request Types",
+            "Coded Values": {
+                "FACILITY GROUNDS": "FM - Facility Grounds Problems",
+                "HEATING/AIR COND": "FM - Heating/Air Conditioning Problem",
+                "JANITORIAL SERVICES": "FM - Janitorial Services/Cleaning Problems",
+                "LIGHTING/ELECTRICAL": "FM - Lighting/Electrical",
+                "PLUMBING": "FM - Facility Plumbing Kokopelli Springs Facility"
+            },
+            "Field Type": "TEXT",
+            "Domain Type": "CODED"
+        },
+        {
+            "Name": "ForesterProblemType",
+            "Description": "Forester Request Types",
+            "Coded Values": {
+                "REPLACETREE": "Replace tree",
+                "DEBRIS": "Debris pickup",
+                "ROW": "Clear right-of-way",
+                "DISTANCE": "Site distance",
+                "INSECT": "Insect problem",
+                "SICK": "Sick tree"
+            },
+            "Field Type": "TEXT",
+            "Domain Type": "CODED"
+        },
+        {
+            "Name": "NatGasUtilityProblemType",
+            "Description": "Natural Gas Utility Request Type",
+            "Coded Values": {
+                "NGGASLEAK": "Gas Leak",
+                "NGMeterProblem": "Gas Meter Problem/Issue",
+                "NGServiceDisconnect": "Gas Service Disconnection Request",
+                "NGOdorComplaint": "Natural Gas Odor Complaint",
+                "NGConnectService": "Connect Gas Service for Customer",
+                "NGINFOLowIncome": "GAS INFO: Low Income Assistance & Payment Plan",
+                "NGINFOUtilityBillQ": "GAS INFO: Utility Bill Questions & Concerns",
+                "NGINFOEnergyConsQ": "GAS INFO: Energy Conservation Questions",
+                "NGINFO811ONECALL": "GAS INFO: Digging Clearance - 811/ONECALL"
+            },
+            "Field Type": "TEXT",
+            "Domain Type": "CODED"
+        },
+        {
+            "Name": "StreetProblemType",
+            "Description": "Street Request Types",
+            "Coded Values": {
+                "ADA": "ADA Program",
+                "BRIDGE": "Bridge Issue",
+                "GRADE": "Grading",
+                "MOW": "Mowing",
+                "POTHOLE": "Pothole",
+                "SNOW": "Snow/Ice Removal",
+                "SIDEWALK": "Sidewalk program"
+            },
+            "Field Type": "TEXT",
+            "Domain Type": "CODED"
+        },
+        {
+            "Name": "TelComUtilityProblemType",
+            "Description": "Telcom Utility Request Type",
+            "Coded Values": {
+                "BCKBONEREP": "Backbone Repair",
+                "BUSEQUIP": "Business Equipment Repair",
+                "BUSINTOUT": "Business Internet Outage",
+                "FIBLOCATE": "Locate Fiber Facilities",
+                "NEWBIZ": "New Business Internet Service Request",
+                "NEWRESINT": "New Residential Internet Service Request",
+                "REPFIBMRKR": "Repair Fiber Marker",
+                "RESEQUIPTBL": "Residential Equipment Troubleshooting",
+                "RESINTOUT": "Residential Internet Outage"
+            },
+            "Field Type": "TEXT",
+            "Domain Type": "CODED"
+        },
+        {
+            "Name": "WaterProblemTypes",
+            "Description": "Water Utility Request Types",
+            "Coded Values": {
+                "HIGHPRESSURE": "High water pressure",
+                "LOWPRESSURE": "Low water pressure",
+                "LEAK": "Water leak",
+                "QUALITY": "Water quality",
+                "HYDRANT": "Hydrant problem"
+            },
+            "Field Type": "TEXT",
+            "Domain Type": "CODED"
+        },
+        {
+            "Name": "STATUS",
+            "Description": "Status",
+            "Coded Values": {
+                "APPROVED": "Approved",
+                "CANCEL": "Cancel",
+                "CANTP": "Customer Action Needed to Proceed",
+                "CLOSED": "Closed",
+                "COMPLETE": "Completed",
+                "CONTRCTR": "Contractor",
+                "HOLD": "Hold",
+                "INTP": "Information Needed to Process",
+                "IP": "In Progress",
+                "OPEN": "Open",
+                "PENDING": "Pending",
+                "RECEIVED": "Received",
+                "REJECTED": "Rejected",
+                "SUBMITTED": "Submitted",
+                "UNFOUND": "Unfounded",
+                "WAFNTP": "Work Authorization Form Needed to Proceed"
+            },
+            "Field Type": "TEXT",
+            "Domain Type": "CODED"
+        },
+        {
+            "Name": "YesNo",
+            "Description": "Yes No",
+            "Coded Values": {
+                "Y": "Yes",
+                "N": "No"
+            },
+            "Field Type": "TEXT",
+            "Domain Type": "CODED"
+        }
+    ]
+}

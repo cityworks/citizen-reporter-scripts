@@ -1,0 +1,32 @@
+{"Domains":[{"Name":"STATUS",
+    "Description":"Status",
+    "Coded Values":{
+        "APPROVED":"Approved",
+        "CANCEL":"Cancel",
+        "CANTP":"Customer Action Needed to Proceed",
+        "CLOSED":"Closed",
+        "COMPLETE":"Completed",
+        "CONTRCTR":"Contractor",
+        "HOLD":"Hold",
+        "INTP":"Information Needed to Process",
+        "IP":"In Progress",
+        "OPEN":"Open",
+        "PENDING":"Pending",
+        "RECEIVED":"Received",
+        "REJECTED":"Rejected",
+        "SUBMITTED":"Submitted",
+        "UNFOUND":"Unfounded",
+        "WAFNTP":"Work Authorization Form Needed to Proceed"
+    },
+"Field Type":"TEXT",
+"Domain Type":"CODED"},
+
+{"Name":"YesNo",
+    "Description":"Yes No",
+    "Coded Values":{
+        "Y":"Yes",
+        "N":"No"
+    },
+    "Field Type":"TEXT",
+    "Domain Type":"CODED"}
+]}

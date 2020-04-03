@@ -1,0 +1,11 @@
+{
+    "FeatureClasses": {
+        "ElectricUtilityProblemTypes": "ElectricUtilityProblems",
+        "EMSProblemType": "EMSProblems",
+        "ForesterProblemType": "ForesterProblems",
+        "NatGasUtilityProblemType": "NatGasUtilityProblems",
+        "StreetProblemType": "StreetProblems",
+        "TelComUtilityProblemType": "TelComUtilityProblems",
+        "WaterProblemTypes": "WaterProblems"
+    }
+}

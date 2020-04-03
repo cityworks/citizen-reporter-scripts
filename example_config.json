@@ -1,0 +1,119 @@
+{
+    "cityworks": {
+        "url": "<your cityworks url>",
+        "username": "<cityworks username>",
+        "password": "<cityworks password>",
+        "timezone": "America/Denver",
+        "isCWOL": false
+    },
+    "arcgis": {
+        "url": "https://www.arcgis.com",
+        "username": "",
+        "password": "",
+        "layers": [
+            "<feature layer url>"
+        ],
+        "tables": [
+            "<feature service table url>"
+        ]
+    },
+    "fields": {
+        "layers": [
+            [
+                "CallerHomePhone",
+                "phone"
+            ],
+            [
+                "CallerLastName",
+                "lname"
+            ],
+            [
+                "CallerFirstName",
+                "fname"
+            ],
+            [
+                "Location",
+                "location"
+            ],
+            [
+                "Details",
+                "details"
+            ],
+            [
+                "CallerCity",
+                "city"
+            ],
+            [
+                "CallerZip",
+                "zip"
+            ],
+            [
+                "CustState",
+                "state"
+            ],
+            [
+                "CallerAddress",
+                "address"
+            ],
+            [
+                "CallerEmail",
+                "email"
+            ],
+            [
+                "Details",
+                "details"
+            ],
+            [
+                "Num5",
+                "OBJECTID"
+            ]
+        ],
+        "tables": [
+            [
+                "RequestId",
+                "reportid"
+            ],
+            [
+                "Comments",
+                "comments"
+            ],
+            [
+                "FirstName",
+                "fname"
+            ],
+            [
+                "LastName",
+                "lname"
+            ],
+            [
+                "HomePhone",
+                "phone"
+            ],
+            [
+                "Email",
+                "email"
+            ],
+            [
+                "Fax",
+                "userid"
+            ]
+        ],
+        "ids": [
+            "RequestId",
+            "reportid"
+        ],
+        "type": [
+            "ProblemSid",
+            "probtype"
+        ],
+        "opendate": [
+            "DateTimeInit",
+            "created_date"
+        ]
+    },
+    "flag": {
+        "field": "status",
+        "on": "Submitted",
+        "off": "Received"
+    }
+}
