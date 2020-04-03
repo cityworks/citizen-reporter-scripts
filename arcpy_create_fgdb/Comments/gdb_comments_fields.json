@@ -1,0 +1,114 @@
+{
+    "Fields": [
+        {
+            "field_name": "comments",
+            "field_type": "TEXT",
+            "field_length": 255,
+            "field_alias": "Comments",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain":null
+        },
+
+        {
+            "field_name": "fname",
+            "field_type": "TEXT",
+            "field_length": 25,
+            "field_alias": "First Name",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain":null
+        },
+        {
+            "field_name": "lname",
+            "field_type": "TEXT",
+            "field_length": 25,
+            "field_alias": "Last Name",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain":null
+        },
+        {
+            "field_name": "phone",
+            "field_type": "TEXT",
+            "field_length": 12,
+            "field_alias": "Phone",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain":null
+        },
+        {
+            "field_name": "email",
+            "field_type": "TEXT",
+            "field_length": 100,
+            "field_alias": "Email Address",
+            "field_is_nullable": false,
+            "default_value": null,
+            "field_domain":null
+        },
+        {
+            "field_name": "status",
+            "field_type": "TEXT",
+            "field_length": 50,
+            "field_alias": "Status",
+            "field_is_nullable": true,
+            "default_value": "SUBMITTED",
+            "field_domain":"STATUS"
+        },
+        {
+            "field_name": "submitdate",
+            "field_type": "DATE",
+            "field_length": null,
+            "field_alias": "Submit Date",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain":null
+        },
+        {
+            "field_name": "processed",
+            "field_type": "TEXT",
+            "field_length": 3,
+            "field_alias": "Processed",
+            "field_is_nullable": true,
+            "default_value": "N",
+            "field_domain":"YesNo"
+        },
+        {
+            "field_name": "publicview",
+            "field_type": "TEXT",
+            "field_length": 3,
+            "field_alias": "Publicly Visible?",
+            "field_is_nullable": true,
+            "default_value": "Y",
+            "field_domain":"YesNo"
+        },
+        {
+            "field_name": "userid",
+            "field_type": "TEXT",
+            "field_length": 100,
+            "field_alias": "Social User ID",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain":null
+        },
+        {
+            "field_name": "reportid",
+            "field_type": "TEXT",
+            "field_length": 50,
+            "field_alias": null,
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain":null
+        },
+        {
+            "field_name": "parentglobalid",
+            "field_type": "GUID",
+            "field_length": null,
+            "field_alias": null,
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain":null
+        }
+
+    ]
+}

@@ -1,0 +1,144 @@
+{"Domains":[
+    {"Name":"ElectricUtilityProblemTypes",
+    "Description":"Electric Utility Request Types",
+"Coded Values":{
+    "ELECPROBLEM":"Electric Power Problem",
+    "LIGHTNING":"Investigate Lightning Strike",
+    "LOCATES":"Locates",
+    "NEWELEC":"New Electric Service",
+    "POWEROUT":"Power Out",
+    "UPGRADE":"Request for Upgrade",
+    "STREETLIGHTOUT":"Streetlight Out",
+    "TREES":"Trees In Lines",
+    "TRIMTREES":"Trim or Cut Trees",
+    "SECLIGHT":"Turn Off Security Light",
+    "WIRESDOWN":"Wires Down"
+
+},
+"Field Type":"TEXT",
+"Domain Type": "CODED"},
+
+    {"Name":"EMSProblemType",
+    "Description":"Emergency Management Request Types",
+    "Coded Values":{
+        "APPLIANCES":"Appliances (White Goods)",
+        "ELECTRONIC":"Electronic",
+        "HAZWASTE":"Hazardous Waste",
+        "MIXED":"Mixed",
+        "OTHER":"Other",
+        "PERPROP":"Personal Property",
+        "SEDIMENT":"Sediment (Soil, Mud, Sand)",
+        "VEGETATION":"Vegetation",
+        "VEHICLES":"Vehicles",
+        "VESSELS":"Vessels",
+        "CD":"Construction & Demolition"
+        
+    },
+"Field Type":"TEXT",
+"Domain Type":"CODED"},
+
+{"Name":"ForesterProblemType",
+    "Description":"Forester Request Types",
+    "Coded Values":{
+        "REPLACETREE":"Replace tree",
+        "DEBRIS":"Debris pickup",
+        "ROW":"Clear right-of-way",
+        "DISTANCE":"Site distance",
+        "INSECT":"Insect problem",
+        "SICK":"Sick tree"
+        
+    },
+"Field Type":"TEXT",
+"Domain Type":"CODED"},
+
+{"Name":"NatGasUtilityProblemType",
+    "Description":"Natural Gas Utility Request Type",
+    "Coded Values":{
+        "NG_GASLEAK":"Gas Leak",
+        "NG-MeterProblem":"Gas Meter Problem/Issue",
+        "NG-ServiceDisconnect":"Gas Service Disconnection Request",
+        "NG-OdorComplaint":"Natural Gas Odor Complaint",
+        "NG-ConnectService":"Connect Gas Service for Customer",
+        "NG-INFO-LowIncome":"GAS INFO: Low Income Assistance & Payment Plan",
+        "NG-INFO-UtilityBillQ":"GAS INFO: Utility Bill Questions & Concerns",
+        "NG-INFOEnergyConsQ":"GAS INFO: Energy Conservation Questions",
+        "NG-INFO-811ONECALL":"GAS INFO: Digging Clearance - 811/ONECALL"
+    },
+"Field Type":"TEXT",
+"Domain Type":"CODED"},
+
+
+{"Name":"StreetProblemType",
+    "Description":"Street Request Types",
+    "Coded Values":{
+        "ADA":"ADA Program",
+        "BRIDGE":"Bridge Issue",
+        "GRADE":"Grading",
+        "MOW":"Mowing",
+        "POTHOLE":"Pothole",
+        "SNOW":"Snow/Ice Removal",
+        "SIDEWALK":"Sidewalk program"
+    },
+"Field Type":"TEXT",
+"Domain Type":"CODED"},
+
+{"Name":"TelComUtilityProblemType",
+    "Description":"Telcom Utility Request Type",
+    "Coded Values":{
+        "BCKBONEREP":"Backbone Repair",
+        "BUSEQUIP":"Business Equipment Repair",
+        "BUSINTOUT":"Business Internet Outage",
+        "FIBLOCATE":"Locate Fiber Facilities",
+        "NEWBIZ":"New Business Internet Service Request",
+        "NEWRESINT":"New Residential Internet Service Request",
+        "REPFIBMRKR":"Repair Fiber Marker",
+        "RESEQUIPTBL":"Residential Equipment Troubleshooting",
+        "RESINTOUT":"Residential Internet Outage"
+    },
+    "Field Type":"TEXT",
+    "Domain Type":"CODED"},
+
+{"Name":"WaterProblemTypes",
+    "Description":"Water Utility Request Types",
+    "Coded Values":{
+        "HIGHPRESSURE":"High water pressure",
+        "LOWPRESSURE":"Low water pressure",
+        "LEAK":"Water leak",
+        "QUALITY":"Water quality",
+        "HYDRANT":"Hydrant problem"
+    },
+    "Field Type":"TEXT",
+    "Domain Type":"CODED"},
+	
+{"Name":"STATUS",
+    "Description":"Status",
+    "Coded Values":{
+        "APPROVED":"Approved",
+        "CANCEL":"Cancel",
+        "CANTP":"Customer Action Needed to Proceed",
+        "CLOSED":"Closed",
+        "COMPLETE":"Completed",
+        "CONTRCTR":"Contractor",
+        "HOLD":"Hold",
+        "INTP":"Information Needed to Process",
+        "IP":"In Progress",
+        "OPEN":"Open",
+        "PENDING":"Pending",
+        "RECEIVED":"Received",
+        "REJECTED":"Rejected",
+        "SUBMITTED":"Submitted",
+        "UNFOUND":"Unfounded",
+        "WAFNTP":"Work Authorization Form Needed to Proceed"
+    },
+"Field Type":"TEXT",
+"Domain Type":"CODED"},
+
+{"Name":"YesNo",
+    "Description":"Yes No",
+    "Coded Values":{
+        "Y":"Yes",
+        "N":"No"
+    },
+    "Field Type":"TEXT",
+    "Domain Type":"CODED"}
+]}

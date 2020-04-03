@@ -1,0 +1,157 @@
+{
+    "Fields": [
+	    {
+            "field_name": "location",
+            "field_type": "TEXT",
+            "field_length": 150,
+            "field_alias": "Report Location",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        },
+        {
+            "field_name": "probtype",
+            "field_type": "TEXT",
+            "field_length": 50,
+            "field_alias": "Problem Type",
+            "field_is_nullable": false,
+            "default_value": null,
+            "field_domain": "ProblemTypes"
+        },
+        {
+            "field_name": "details",
+            "field_type": "TEXT",
+            "field_length": 500,
+            "field_alias": "Details",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        },
+        {
+            "field_name": "fname",
+            "field_type": "TEXT",
+            "field_length": 100,
+            "field_alias": "First Name",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        },
+        {
+            "field_name": "lname",
+            "field_type": "TEXT",
+            "field_length": 100,
+            "field_alias": "Last Name",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        },
+        {
+            "field_name": "address",
+            "field_type": "TEXT",
+            "field_length": 100,
+            "field_alias": "Address",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        },
+        {
+            "field_name": "city",
+            "field_type": "TEXT",
+            "field_length": 50,
+            "field_alias": "City",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        },
+        {
+            "field_name": "state",
+            "field_type": "TEXT",
+            "field_length": 2,
+            "field_alias": "State",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        },
+        {
+            "field_name": "zip",
+            "field_type": "TEXT",
+            "field_length": 5,
+            "field_alias": "Zip",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        },
+        {
+            "field_name": "phone",
+            "field_type": "TEXT",
+            "field_length": 12,
+            "field_alias": "Phone",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        },
+        {
+            "field_name": "email",
+            "field_type": "TEXT",
+            "field_length": 100,
+            "field_alias": "Email Address",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        },
+        {
+            "field_name": "status",
+            "field_type": "TEXT",
+            "field_length": 50,
+            "field_alias": "Status",
+            "field_is_nullable": true,
+            "default_value": "SUBMITTED",
+            "field_domain": "STATUS"
+        },
+        {
+            "field_name": "plandate",
+            "field_type": "DATE",
+            "field_length": null,
+            "field_alias": "Planned Completion Date",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        },
+        {
+            "field_name": "actdate",
+            "field_type": "DATE",
+            "field_length": null,
+            "field_alias": "Actual Completion Date",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        },
+        {
+            "field_name": "vote",
+            "field_type": "LONG",
+            "field_length": 5,
+            "field_alias": "Votes",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        },
+        {
+            "field_name": "userid",
+            "field_type": "TEXT",
+            "field_length": 100,
+            "field_alias": "Social Media Username",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        },
+        {
+            "field_name": "reportid",
+            "field_type": "TEXT",
+            "field_length": 50,
+            "field_alias": "Report ID",
+            "field_is_nullable": true,
+            "default_value": null,
+            "field_domain": null
+        }
+    ]
+}
