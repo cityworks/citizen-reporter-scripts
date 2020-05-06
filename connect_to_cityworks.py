@@ -159,7 +159,13 @@ def submit_to_cw(row, prob_types, fields, oid, typefields):
     
     response = get_response(url, params)
     try:
-        return response["Value"]
+        if 'Value' in response:
+            if response['Value'] != None:
+                return response["Value"]
+            else:
+                raise TypeError('No Response Value')
+        else:
+            raise TypeError('No Response Value')
 
     except TypeError:
         try:
